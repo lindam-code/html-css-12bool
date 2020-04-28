@@ -20,7 +20,7 @@
 .debug [class*="col-"] > .container [class*="col-"] {
   border: 1px solid white;
   background-color: lightcoral;
-
+  height: 100%;
 }
 /* Fine debug */
 .container {
@@ -34,6 +34,12 @@
 }
 [class*="col-"] {
   float: left;
+}
+[class*="col-"] > .container {
+  height: 100%;
+}
+[class*="col-"] > .container [class*="col-"] {
+  height: 100%;
 }
 /* Calcolo larghezza colonne */
 .col-1 {

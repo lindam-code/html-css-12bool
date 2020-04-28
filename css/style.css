@@ -1,4 +1,13 @@
+body {
+  padding: 25px 0;
+}
+[class*="col-"] {
+  position: relative;
+  height: 300px;
+}
 .centering {
-  text-align: center;
-  line-height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
