@@ -18,7 +18,9 @@
   height: 300px;
 }
 .debug [class*="col-"] > .container [class*="col-"] {
+  border: 1px solid white;
   background-color: lightcoral;
+
 }
 /* Fine debug */
 .container {
